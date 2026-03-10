@@ -1,3 +1,7 @@
+This project is built to show my capabilities with the useState, event listener, toggling stat and conditional rendering. This project is a flashcards web application built with react. The purpose of the app is to quiz future cybersecurity experts. The background is red because it helps with memorization and displays 1 single card in a quizlet style that ask the question and when flipped it shows the answer and a border around the card so the user knows it has flipped. The next button takes the user to the next question which is randomized. 
+
+<img src="walkthrough.gif" width="600">
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
