@@ -11,12 +11,12 @@ function Card({ topic, question, answer, image }) {
     return (
         <div className="card-container" onClick={flipCard}>
 
-        <div className={flipped ? "card-is-flipped" : "card"}>
+        <div className={flipped ? ".card.-is-flipped" : "card"}>
 
            
                 <h3>{topic}</h3>
                 <img src={image} alt="flashcard" className="card-image"/>
-                <p>{flipped ? question : answer}</p>
+                <p>{flipped ? question : answer }</p>
         </div>
      
      </div>
@@ -24,3 +24,4 @@ function Card({ topic, question, answer, image }) {
 }
 
 export default Card
+

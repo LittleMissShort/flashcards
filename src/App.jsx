@@ -28,7 +28,7 @@ function App() {
     },
     {
      topic: "Malicious Code",
-     question:"What is the primary impact of blaotware?",
+     question:"What is the primary impact of bloatware?",
      answer:"Consuming resources, not really a threat but can cause performance issues and make the software vulnerable to attack.",
      image: pic3MC
     }
